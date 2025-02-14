@@ -12,7 +12,7 @@
 In this repository, we provide an official implementation of FULE, feature-centric unsupervised node representation learning without homophily assumption.
 
 
-### Dataset
+### Datasets
 
 We support the following datasets:
 
@@ -33,12 +33,27 @@ We support the following datasets:
 | Penn94  | 41554 | 1362229 | 4814 | 3 |
 | Flickr  | 89250 | 449878 | 500 | 7 |
 
+In addition, refer to the README.txt file in the ./datasets folder.
+
 ### How to run
 
+For node classification, run the following code:
 ```
-Python3
+Python3 main.py -data Squirrel -device cuda:0 -down classification
 ```
+
+For clustering, run the following code:
+```
+Python3 main.py -data Squirrel -device cuda:0 -down clustering
+```
+
+Details of each argument are as follows:
+
+-**data** corresponds to the name of the dataset one aims to reproduce. One of {Cora, Citeseer, Pubmed, Photo, Computers, Arxiv, Chameleon, Squirrel, Actor, Cornell, Wisconsin, Texas, Penn94, Flickr} should be given.
+-**device** corresponds to the name of the GPU device one aims to use.
+- **down** corresponds to the downstream task. One of {classification, clustering} should be given.
+
 
 ### Hyperparameters
 
-We support 
+Detailed hyperparameter configurations are provided in **FULE_dataloader.py** file.
