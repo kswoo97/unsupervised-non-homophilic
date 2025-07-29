@@ -2,7 +2,7 @@
 
 ---
 
-### Submitted to ICML 2025
+### Submitted to AAAI 2026
 ### Anonymous authors
 
 ----
