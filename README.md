@@ -2,14 +2,11 @@
 
 ---
 
-### Submitted to AAAI 2026
-### Anonymous authors
+### Paper information
 
-----
-
-### Overview
-
-In this repository, we provide an official implementation of FULE, feature-centric unsupervised node representation learning without homophily assumption.
+- Title:  Feature-centric unsupervised node representation learning without homophily assumption.
+- Authors: Sunwoo Kim, Soo Yong Lee, Kyungho Kim, Hyunjin Hwang, Jaemin Yoo, Kijung Shin
+- Venue: AAAI 2026
 
 
 ### Datasets
