@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import torch_geometric.transforms as T
 from torch_geometric.datasets import Planetoid, Amazon, WikiCS, WebKB, WikipediaNetwork, Actor
-from torch_geometric.utils import remove_self_loops 
+from torch_geometric.utils import remove_self_loops
 
 
 def prepare_dataset_and_hyperparameter_config_medium (d_name, downstream, device) : 
