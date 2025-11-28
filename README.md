@@ -1,6 +1,6 @@
 # Official implementation of FULE.
 
-### Paper information
+### Paper information 
 
 - Title:  Feature-centric unsupervised node representation learning without homophily assumption.
 - Authors: Sunwoo Kim, Soo Yong Lee, Kyungho Kim, Hyunjin Hwang, Jaemin Yoo, Kijung Shin.
