@@ -51,9 +51,9 @@ Details of each argument are as follows:
 
 - **data** corresponds to the name of the dataset one aims to reproduce. One of {Cora, Citeseer, Pubmed, Photo, Computers, Arxiv, Chameleon, Squirrel, Actor, Cornell, Wisconsin, Texas, Penn94, Flickr} should be given.
 - **device** corresponds to the name of the GPU device one aims to use.
-- **down** corresponds to the downstream task. One of {classification, clustering} should be given.
+- **down** corresponds to the downstream task. One of the {classification, clustering} should be given.
 
 
 ### Hyperparameters
 
-Detailed hyperparameter configurations are provided in **FULE_dataloader.py** file.
+Detailed hyperparameter configurations are provided in the **FULE_dataloader.py** file.
