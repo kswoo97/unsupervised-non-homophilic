@@ -7,7 +7,7 @@ from sklearn.metrics.cluster import normalized_mutual_info_score as nmi_score
 
 from FULE_dataloader import *
 from FULE_main import *
-from FULE_large import *
+from FULE_large import * 
 
 if __name__ == "__main__" : 
     
