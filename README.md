@@ -9,7 +9,7 @@
 ### Overview
 
 In this GitHub repository, we provide (1) supplementary material of our paper, and the official code implementation of our proposed method: FULE.
-- For supplementary material, refer to the ```supplementary.pdf``` file in the directory.  
+- For supplementary material, refer to the ```supplementary.pdf``` file in the directory.
 - For code, refer to the "how to run" section below.
 
 ### Datasets
