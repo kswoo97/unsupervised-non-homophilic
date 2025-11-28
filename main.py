@@ -3,7 +3,7 @@ import copy
 import numpy as np
 import argparse
 from sklearn.cluster import KMeans
-from sklearn.metrics.cluster import normalized_mutual_info_score as nmi_score
+from sklearn.metrics.cluster import normalized_mutual_info_score as nmi_score 
 
 from FULE_dataloader import *
 from FULE_main import *
