@@ -50,7 +50,7 @@ Python3 main.py -data Squirrel -device cuda:0 -down clustering
 Details of each argument are as follows:
 
 - **data** corresponds to the name of the dataset one aims to reproduce. One of {Cora, Citeseer, Pubmed, Photo, Computers, Arxiv, Chameleon, Squirrel, Actor, Cornell, Wisconsin, Texas, Penn94, Flickr} should be given.
-- **device** corresponds to the name of the GPU device one aims to use.
+- **device** corresponds to the name of the GPU device one aims to use, such as "cuda:0".
 - **down** corresponds to the downstream task. One of the {classification, clustering} should be given.
 
 
