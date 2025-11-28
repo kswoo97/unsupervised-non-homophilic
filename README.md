@@ -1,4 +1,4 @@
-# Official implementation of FULE.
+# Official implementation of FULE
 
 ### Paper information 
 
