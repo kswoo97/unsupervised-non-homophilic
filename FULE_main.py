@@ -13,7 +13,7 @@ from sklearn import preprocessing
 
 import torch.nn as nn
 import torch.nn.functional as F
-from tqdm import trange, tqdm
+
 
 import typing
 import warnings
@@ -21,6 +21,7 @@ import itertools
 
 from torch import Tensor, FloatTensor
 from typing import Any, List, Optional, Tuple, Union
+from tqdm import trange, tqdm
 
 from FULE_dataloader import * # Dataset loading function
 
