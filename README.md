@@ -14,7 +14,7 @@ In this GitHub repository, we provide (1) supplementary material of our paper, a
 
 ### Datasets
 
-We support the following datasets.
+We support the following graph datasets.
 
 | Name  | # of nodes | # of edges | # of features | # of classes |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
